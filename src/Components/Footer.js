@@ -14,7 +14,7 @@ function Footer() {
                 <NavLink to="/notices" activeClassName="active" style={{color: "white"}}><CardFooter  className = "d-flex flex-row justify-content-center align-items-center">Legal Notices</CardFooter></NavLink>
                 <NavLink to="/contact" activeClassName="active" style={{color: "white"}}><CardFooter  className = "d-flex flex-row justify-content-center align-items-center">Contact</CardFooter></NavLink>
             </Row>
-            <p style={{color: "lightgrey", marginTop: "20px"}}>We use <a href="https://www.themoviedb.org/documentation/api" target="_blank" style={{color: "lightgrey"}}>TMDB API</a></p>
+            <p style={{color: "lightgrey", marginTop: "20px"}}>We use <a href="https://www.themoviedb.org/documentation/api" target="_blank" rel="noreferrer" style={{color: "lightgrey"}}>TMDB API</a></p>
             <h5 id="copyright">  Copyright &#169;  2021 </h5>
         </Container>
     )
